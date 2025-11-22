@@ -7,22 +7,22 @@ let attendee = {
   ticketPrice: 150.00
 };
 
-//function logAttendeeName
+//logAttendeeName
 function logAttendeeName(attendee) {
   console.log(attendee.name);
 }
 
-//function logTicketPrice
+//logTicketPrice
 function logTicketPrice(attendee) {
   console.log(attendee.ticketPrice);
 }
- 
-//updates attendee's ticketTyype
+
+//updates attendee's ticketType
 function updateTicketType(attendee, newTicketType) {
   attendee.ticketType = newTicketType;
 }
 
-//updates ticketPrice
+//uodates ticketPrice
 function updateTicketPrice(attendee, newTicketPrice) {
   attendee.ticketPrice = newTicketPrice;
 }
@@ -32,11 +32,10 @@ function removeEventProperty(attendee) {
   delete attendee.event;
 }
 
-//adds checkedIn set to true
+//add checkedIn set to true
 function addCheckedInProperty(attendee) {
   attendee.checkedIn = true;
 }
-
 
 
 
